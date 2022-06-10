@@ -1,0 +1,24 @@
+<h1>Tea Lovers Unite</h1>
+<ul class="tea">
+    <% for(let i = 0; i < info.length; i++) { %>
+        <li class="teas">
+            <span><%= info[i].name %></span>
+            <span><%= info[i].type %></span>
+            <span><%= info[i].waterTemp %></span>
+            <span><%= info[i].steepTime %></span>
+            <span><%= info[i].caffeineLevel %></span>
+            <span class="del">Delete</span>
+        </li>
+    <% } %>
+</ul>
+
+<h2>Add A Tea:</h2>
+
+<form action="/addTea" method="POST">
+    <input type="text" placeholder="Tea Name" name="name">
+    <input type="text" placeholder="Tea Type" name="type">
+    <input type="text" placeholder="Water Temp" name="waterTemp">
+    <input type="text" placeholder="Steep Time" name="steepTime">
+    <input type="text" placeholder="Caffeine Level" name="caffeineLevel">
+    <input type="submit">
+</form>

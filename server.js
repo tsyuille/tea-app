@@ -39,3 +39,12 @@ app.post('/addTea', (req, res) => {
     })
     .catch(error => console.error(error))
 })
+
+/* app.delete('/deleteTea', (req, res) => {
+    db.collection('tea').deleteOne({ name: req.body.name })
+    .then(res => {
+        console.log('Tea deleted')
+        res.json('Tea deleted')
+    })
+    .catch(error => console.error(error))
+}) */
