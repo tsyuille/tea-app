@@ -1,24 +1,35 @@
-<h1>Tea Lovers Unite</h1>
-<ul class="tea">
-    <% for(let i = 0; i < info.length; i++) { %>
-        <li class="teas">
-            <span><%= info[i].name %></span>
-            <span><%= info[i].type %></span>
-            <span><%= info[i].waterTemp %></span>
-            <span><%= info[i].steepTime %></span>
-            <span><%= info[i].caffeineLevel %></span>
-            <span class="del">Delete</span>
-        </li>
-    <% } %>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tea Lovers Unite</title>
+</head>
+<body>
+    <h1>Steep The Perfect Cup Of Tea</h1>
+    <ul class="tea">
+        <% for(let i = 0; i < info.length; i++) { %>
+            <li class="teas">
+                <span><%= info[i].name %></span>
+                <span><%= info[i].type %></span>
+                <span><%= info[i].waterTemp %></span>
+                <span><%= info[i].steepTime %></span>
+            </li>
+        <% } %>
+    </ul>
 
-<h2>Add A Tea:</h2>
+    <h2>Add A Tea:</h2>
 
-<form action="/addTea" method="POST">
-    <input type="text" placeholder="Tea Name" name="name">
-    <input type="text" placeholder="Tea Type" name="type">
-    <input type="text" placeholder="Water Temp" name="waterTemp">
-    <input type="text" placeholder="Steep Time" name="steepTime">
-    <input type="text" placeholder="Caffeine Level" name="caffeineLevel">
-    <input type="submit">
-</form>
+    <form action="/addTea" method="POST">
+        <input type="text" placeholder="Tea Name" name="name">
+        <input type="text" placeholder="Tea Type" name="type">
+        <input type="text" placeholder="Water Temp" name="waterTemp">
+        <input type="text" placeholder="Steep Time" name="steepTime">
+        <input type="submit">
+    </form>
+</body>
+</html>
+
