@@ -10,26 +10,29 @@
 </head>
 <body>
     <h1>Steep The Perfect Cup Of Tea</h1>
+
+    <section class="container">
+        <form action="/addTea" method="POST">
+            <h2>Add A Tea:</h2>
+            <input type="text" placeholder="Tea Name" name="name">
+            <input type="text" placeholder="Tea Type" name="type">
+            <input type="text" placeholder="Water Temp" name="waterTemp">
+            <input type="text" placeholder="Steep Time" name="steepTime">
+            <input type="submit" class="submit">
+        </form>
+    </section>
+
     <ul class="tea">
         <% for(let i = 0; i < info.length; i++) { %>
             <li class="teas">
-                <span><%= info[i].name %></span>
-                <span><%= info[i].type %></span>
-                <span><%= info[i].waterTemp %></span>
-                <span><%= info[i].steepTime %></span>
+                <p><strong>Name:</strong> <%= info[i].name %></p>
+                <p><strong>Type:</strong> <%= info[i].type %></p>
+                <p><strong>Water Temp:</strong> <%= info[i].waterTemp %></p>
+                <p><strong>Steep Time:</strong> <%= info[i].steepTime %></p>
             </li>
         <% } %>
     </ul>
 
-    <h2>Add A Tea:</h2>
-
-    <form action="/addTea" method="POST">
-        <input type="text" placeholder="Tea Name" name="name">
-        <input type="text" placeholder="Tea Type" name="type">
-        <input type="text" placeholder="Water Temp" name="waterTemp">
-        <input type="text" placeholder="Steep Time" name="steepTime">
-        <input type="submit">
-    </form>
 </body>
 </html>
 
