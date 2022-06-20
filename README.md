@@ -1,6 +1,6 @@
 # Steep The Perfect Cup Of Tea
 
-Generates recipes based on what the user is craving. 
+Create and display steeping instructions for the perfect cup of tea.
 
 **Link to project:** https://ilovetea.herokuapp.com/
 
