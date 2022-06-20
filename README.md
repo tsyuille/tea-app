@@ -4,9 +4,9 @@ Generates recipes based on what the user is craving.
 
 **Link to project:** https://ilovetea.herokuapp.com/
 
+<img width="1438" alt="Screen Shot 2022-06-20 at 6 16 41 PM" src="https://user-images.githubusercontent.com/24927444/174683868-ba00f2bf-d8d2-4450-b456-8e0a39689e77.png">
 
-https://user-images.githubusercontent.com/24927444/174683425-2005762f-121e-434c-86ba-78dd36724ad6.gif
-
+<img width="1438" alt="Screen Shot 2022-06-20 at 6 16 54 PM" src="https://user-images.githubusercontent.com/24927444/174683875-ec7af338-db16-455e-a594-e6a5c19bfcd3.png">
 
 ## How It's Made
 
