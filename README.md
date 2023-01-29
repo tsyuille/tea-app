@@ -2,7 +2,7 @@
 
 Create and display steeping instructions for the perfect cup of tea.
 
-**Link to project:** https://ilovetea.herokuapp.com/
+<!--**Link to project:** https://ilovetea.herokuapp.com/-->
 
 <img width="1438" alt="Screen Shot 2022-06-20 at 6 16 41 PM" src="https://user-images.githubusercontent.com/24927444/174683868-ba00f2bf-d8d2-4450-b456-8e0a39689e77.png">
 
